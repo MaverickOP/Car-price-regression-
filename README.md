@@ -16,3 +16,12 @@ Explore notebooks/ for preprocessing and model insights.
 Examine the web_app/ directory for web interface implementation.
 Follow instructions to train models and deploy the web app.
 required libraries 
+import pandas as pd
+import matplotlib.pyplot as plt
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from sklearn.linear_model import LinearRegression
+from sklearn.tree import DecisionTreeRegressor
+from sklearn.ensemble import RandomForestRegressor
+from sklearn.svm import SVR
+from sklearn.metrics import mean_squared_error
